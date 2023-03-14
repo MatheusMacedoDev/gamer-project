@@ -49,9 +49,7 @@
                 </a>
     
                 <!-- Mobile lateral user menu -->
-                <a href="">
-                    <img src="./assets/icons/options-icon.png" alt="Botão que abre e fecha o menu de usuário">
-                </a>
+                <img onclick="clickUserMenuButton()" src="./assets/icons/options-icon.png" alt="Botão que abre e fecha o menu de usuário">
     
                 <nav class="navigator-menu" id="menu">
                     <a href="">Início</a>
@@ -84,7 +82,7 @@
 
                 </nav>
 
-                <div class="lateral-user-menu">
+                <div class="lateral-user-menu" id="user-menu">
                     <a href="">
                         <img src="./assets/icons/user-icon.png" alt="Botão que leva ao perfil">
                     </a>
@@ -116,6 +114,11 @@
     <script>
         function clickMenuButton() {
             const menu = document.getElementById('menu').classList.toggle('show-left-menu')
+        }
+
+        function clickUserMenuButton() {
+            const userMenu = document.getElementById('user-menu')
+            userMenu.classList.toggle('show-right-menu')
         }
     </script>
 </body>

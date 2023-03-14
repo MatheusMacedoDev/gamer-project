@@ -36,6 +36,10 @@ a {
     left: 0vw !important;
 }
 
+.show-right-menu {
+    right: 0vw !important;
+}
+
 /* Mobile fist */
 
 /* Header */
@@ -111,5 +115,19 @@ header .header-bottom nav.navigator-menu .phone-number, header .header-bottom na
 }
 
 header .header-bottom .lateral-user-menu {
-    display: none;
+    width: 16vw;
+    position: fixed;
+    top: 60px;
+    right: -16vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+
+    transition: right 0.3s;
 }
