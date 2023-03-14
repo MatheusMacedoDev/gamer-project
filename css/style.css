@@ -131,3 +131,26 @@ header .header-bottom .lateral-user-menu {
 
     transition: right 0.3s;
 }
+
+/* Main */
+
+main.content {
+    margin-top: 60px;
+}
+
+/* Banner */
+
+main.content section.banner {
+    width: 100%;
+    height: 606px;
+    background-color: rebeccapurple;
+    background-image: url(../assets/images/mobile-background-banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+main.content section.banner h1 {
+    font-family: "TitilliumWeb-Black";
+    font-size: 40px;
+}
