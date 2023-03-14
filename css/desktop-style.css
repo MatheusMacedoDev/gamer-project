@@ -1,0 +1,55 @@
+/* Desktop */
+
+/* Font imports */
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/titillium-web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@media screen and (min-width: 1024px) {
+    header .header-top {
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        display: block;
+        background-color: #1B1426;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header .header-top .social-medias {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    header .header-top .contact-info {
+        display: flex;
+        gap: 60px;
+    }
+
+    header .header-top .contact-info > * {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #fff;
+
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    header .header-bottom {
+    }
+}
