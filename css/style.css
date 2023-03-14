@@ -64,6 +64,44 @@ header .header-bottom nav.navigator-menu {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+}
+
+header .header-bottom nav.navigator-menu > a {
+    padding: 30px 0;
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid #F9AA01;
+}
+
+header .header-bottom nav.navigator-menu > a:last-of-type {
+    border: none;
+}
+
+header .header-bottom nav.navigator-menu .social-medias {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+header .header-bottom nav.navigator-menu .phone-number, header .header-bottom nav.navigator-menu .email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
 }
 
 header .header-bottom .lateral-user-menu {
