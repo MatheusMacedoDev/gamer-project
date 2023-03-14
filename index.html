@@ -40,9 +40,8 @@
         <div class="header-bottom">
             <div class="layout-grid flex-between-center">
                 <!-- Mobile lateral menu  -->
-                <a href="">
-                    <img src="./assets/icons/menu-icon.png" alt="Botão que abre e fecha o menu lateral">
-                </a>
+       
+                <img onclick="clickMenuButton()" src="./assets/icons/menu-icon.png" alt="Botão que abre e fecha o menu lateral">
     
                 <!-- Logotype -->
                 <a href="">
@@ -54,7 +53,7 @@
                     <img src="./assets/icons/options-icon.png" alt="Botão que abre e fecha o menu de usuário">
                 </a>
     
-                <nav class="navigator-menu">
+                <nav class="navigator-menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -114,5 +113,10 @@
     <footer>
 
     </footer>
+    <script>
+        function clickMenuButton() {
+            const menu = document.getElementById('menu').classList.toggle('show-left-menu')
+        }
+    </script>
 </body>
 </html>
