@@ -10,6 +10,11 @@
     src: url(../assets/fonts/titillium-web/TitilliumWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 /* General changes */
 
 * {
@@ -193,4 +198,85 @@ main.content section.cards .flex {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+main.content section.envitation {
+    height: 1535px;
+    padding-top: 90px;
+    background-color: #F9AA01;
+}
+
+main.content section.envitation .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.content section.envitation h2 {
+    font-family: "TitilliumWeb-Black";
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #1B1426;
+    text-transform: uppercase;
+}
+
+main.content section.envitation hr {
+    width: 200px;
+    margin-top: 35px;
+    border: 2px solid #1B1426;
+}
+
+main.content section.envitation article.card {
+    width: 230px;
+    height: 300px;
+    padding: 25px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid #fff;
+
+    background-color: #1B1426;
+    background: linear-gradient(145deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.8) 100%);
+    color: #fff;
+    backdrop-filter: blur(8px);
+}
+
+main.content section.envitation article.card h3.card-title {
+    font-family: "TitilliumWeb-Black";
+    font-size: 18px;
+    text-shadow: 0px 0px ;
+}
+
+main.content section.envitation article.card p.card-text {
+    font-family: "Quicksand";
+    font-size: 13px;
+    text-align: justify;
+}
+
+main.content section.envitation .first-card-container {
+    margin-top: 200px;
+    align-self: flex-end;
+    position: relative;
+}
+
+main.content section.envitation .second-card-container {
+    margin-top: 320px;
+    align-self: flex-start;
+    position: relative;
+}
+
+main.content section.envitation .first-card-container > img {
+    position: absolute;
+    right: 26px;
+    bottom: -88px;
+}
+
+main.content section.envitation .second-card-container > img {
+    position: absolute;
+    left: 26px;
+    bottom: -10px;
 }
