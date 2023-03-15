@@ -93,7 +93,7 @@ header .header-bottom nav.navigator-menu {
     transition: left 0.3s;
 }
 
-header .header-bottom nav.navigator-menu > a {
+header .header-bottom nav.navigator-menu > a, header .header-bottom nav.navigator-menu .phone-number {
     padding: 30px 0;
     color: white;
     font-family: Inter;
@@ -104,9 +104,9 @@ header .header-bottom nav.navigator-menu > a {
     border-bottom: 2px solid #F9AA01;
 }
 
-header .header-bottom nav.navigator-menu > a:last-of-type {
+/* header .header-bottom nav.navigator-menu > a:last-of-type {
     border: none;
-}
+} */
 
 header .header-bottom nav.navigator-menu .social-medias {
     position: absolute;
@@ -174,7 +174,7 @@ main.content section.banner {
 }
 
 main.content section.banner h1 {
-    font-family: "TitilliumWeb-Bold";
+    font-family: "TitilliumWeb-Black";
     font-size: 40px;
     color: #fff;
     text-shadow: 0 0 7px #FD4255;
@@ -192,6 +192,7 @@ main.content section.banner button.about-button {
     font-family: "TitilliumWeb-Bold";
     font-size: 24px;
     border-radius: 8px;
+    border: none;
 }
 
 main.content section.cards {
