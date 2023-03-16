@@ -157,7 +157,7 @@ main.content {
 main.content section.banner {
     width: 100%;
     height: 606px;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -290,5 +290,58 @@ main.content section.envitation .second-card-container > img {
 
 main.content section.news {
     height: 3645px;
+    padding: 45px 0;
     background-image: url(../assets/images/mobile-news-background.png);
+    color: #fff;
+}
+
+main.content section.news div.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.content section.news h2.section-title {
+    font-family: "TitilliumWeb-Black";
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main.content section.news div.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+main.content section.news hr {
+    width: 204px;
+    border: 2px solid #F9AA01;
+    margin-bottom: 55px;
+}
+
+main.content section.news article.news-card {
+    width: 100%;
+    height: 388px;
+    border-radius: 8px;
+    background-color: #1B1426;
+}
+
+main.content section.news article.news-card img.news-image {
+    width: 100%;
+}
+
+main.content section.news article.news-card div.news-text-container {
+    padding: 16px 24px;
+}
+
+main.content section.news article.news-card h3.news-title {
+    font-family: "TitilliumWeb-Bold";
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+main.content section.news article.news-card p.news-text {
+    font-family: "Quicksand";
+    font-size: 16px;
+    line-height: 24px;
 }
