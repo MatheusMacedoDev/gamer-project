@@ -285,3 +285,10 @@ main.content section.envitation .second-card-container > img {
     left: 26px;
     bottom: -10px;
 }
+
+/* News section */
+
+main.content section.news {
+    height: 3645px;
+    background-image: url(../assets/images/mobile-news-background.png);
+}
