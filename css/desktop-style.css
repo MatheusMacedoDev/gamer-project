@@ -115,10 +115,24 @@
         margin-top: 0px;
     }
 
-    /* Banner */
+    /* Banner section */
 
     main.content section.banner {
         height: 813px;
         background-image: url(../assets/images/desktop-banner-background.png);
+    }
+
+    /* Cards section */
+
+    main.content section.cards {
+        height: 500px;
+    }
+
+    main.content section.cards .flex {
+        flex-direction: row;
+    }
+
+    main.content section.cards img {
+        width: 40vw;
     }
 }
