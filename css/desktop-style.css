@@ -114,4 +114,11 @@
     main.content {
         margin-top: 0px;
     }
+
+    /* Banner */
+
+    main.content section.banner {
+        height: 813px;
+        background-image: url(../assets/images/desktop-banner-background.png);
+    }
 }

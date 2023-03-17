@@ -170,9 +170,9 @@ main.content section.banner {
 
     background-color: rebeccapurple;
     background-image: url(../assets/images/mobile-background-banner.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
 }
 
 main.content section.banner h1 {
