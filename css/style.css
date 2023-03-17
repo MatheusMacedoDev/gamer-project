@@ -102,6 +102,10 @@ header .header-bottom nav.navigator-menu > a, header .header-bottom nav.navigato
     border-bottom: 2px solid #F9AA01;
 }
 
+header .header-bottom nav.navigator-menu > a:hover {
+    background-color: rgba(249, 170, 1, 0.4);
+}
+
 /* header .header-bottom nav.navigator-menu > a:last-of-type {
     border: none;
 } */

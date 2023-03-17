@@ -95,7 +95,8 @@
     }
 
     header .header-bottom nav.navigator-menu > a:hover {
-        border-bottom: 2px solid #F9AA01;
+        color: #F9AA01;
+        background-color: transparent;
     }
 
     header .header-bottom div.lateral-user-menu {
