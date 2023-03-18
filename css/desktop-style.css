@@ -13,6 +13,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+    /* Utilities */
+    .layout-grid {
+        max-width: 1400px;
+    }
+
     /* Header */
 
     header {
@@ -122,6 +127,15 @@
         background-image: url(../assets/images/desktop-banner-background.png);
     }
 
+    main.content section.banner h1 {
+        font-size: 80px;
+    }
+
+    main.content section.banner button.about-button {
+        width: 200px;
+        font-size: 24px;
+    }
+
     /* Cards section */
 
     main.content section.cards {
@@ -130,9 +144,11 @@
 
     main.content section.cards .flex {
         flex-direction: row;
+        justify-content: space-between;
     }
 
     main.content section.cards img {
         width: 40vw;
+        max-width: 600px;
     }
 }
