@@ -203,4 +203,28 @@
     main.content section.envitation article.card p.card-text {
         font-size: 16px;
     }
+
+    /* News section */
+
+    main.content section.news {
+        height: auto;
+        padding: 100px 0;
+        background-image: url(../assets/images/desktop-news-background.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    main.content section.news h2.section-title {
+        font-size: 40px;
+    }
+
+    main.content section.news div.news-container {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    main.content section.news article.news-card {
+        width: 285px;
+    }
 }
