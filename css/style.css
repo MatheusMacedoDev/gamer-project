@@ -244,6 +244,36 @@ main.content section.envitation hr {
     border: 2px solid #1B1426;
 }
 
+main.content section.envitation div.cards-container {
+    width: 100%;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 320px;
+}
+
+main.content section.envitation  div.first-card-container {
+    align-self: flex-end;
+    position: relative;
+}
+
+main.content section.envitation div.second-card-container {
+    align-self: flex-start;
+    position: relative;
+}
+
+main.content section.envitation .first-card-container > img {
+    position: absolute;
+    right: 26px;
+    bottom: -88px;
+}
+
+main.content section.envitation .second-card-container > img {
+    position: absolute;
+    left: 26px;
+    bottom: -10px;
+}
+
 main.content section.envitation article.card {
     width: 230px;
     height: 300px;
@@ -266,37 +296,13 @@ main.content section.envitation article.card {
 main.content section.envitation article.card h3.card-title {
     font-family: "TitilliumWeb-Black";
     font-size: 18px;
-    text-shadow: 0px 0px ;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.4);
 }
 
 main.content section.envitation article.card p.card-text {
     font-family: "Quicksand";
     font-size: 13px;
     text-align: justify;
-}
-
-main.content section.envitation .first-card-container {
-    margin-top: 200px;
-    align-self: flex-end;
-    position: relative;
-}
-
-main.content section.envitation .second-card-container {
-    margin-top: 320px;
-    align-self: flex-start;
-    position: relative;
-}
-
-main.content section.envitation .first-card-container > img {
-    position: absolute;
-    right: 26px;
-    bottom: -88px;
-}
-
-main.content section.envitation .second-card-container > img {
-    position: absolute;
-    left: 26px;
-    bottom: -10px;
 }
 
 /* News section */

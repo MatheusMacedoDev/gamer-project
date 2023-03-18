@@ -151,4 +151,56 @@
         width: 40vw;
         max-width: 600px;
     }
+
+    /* Envitation section */
+
+    main.content section.envitation {
+        height: 1000px;
+    }
+
+    main.content section.envitation h2 {
+        font-size: 40px;
+    }
+
+    main.content section.envitation div.cards-container {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    main.content section.envitation  div.first-card-container,
+    main.content section.envitation div.second-card-container {
+        align-self: auto;
+    }
+
+    main.content section.envitation .first-card-container > img {
+        width: 422px;
+        right: 84px;
+        bottom: -24px;
+    }
+
+    main.content section.envitation .second-card-container > img {
+        width: 521px;
+        left: 72px;
+        bottom: 6px;
+    }
+
+    main.content section.envitation article.card {
+        width: 360px;
+        height: 440px;
+        padding: 56px;
+    }
+
+    main.content section.envitation article.card img.card-image {
+        width: 142px;
+        height: 142px;
+    }
+
+    main.content section.envitation article.card h3.card-title {
+        font-size: 25px;
+    }
+
+    main.content section.envitation article.card p.card-text {
+        font-size: 16px;
+    }
 }
