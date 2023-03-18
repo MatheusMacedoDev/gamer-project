@@ -32,6 +32,19 @@ a {
     text-decoration: none;
 }
 
+*::-webkit-scrollbar {
+    width: 1em;
+    background-color: #1B1426;
+}
+
+*::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
 /* Utilities */
 
 .layout-grid {
@@ -343,6 +356,11 @@ main.content section.news article.news-card {
     height: 388px;
     border-radius: 8px;
     background-color: #1B1426;
+    overflow-y: overlay;
+}
+
+main.content section.news article.news-card::-webkit-scrollbar {
+    width: 0.5em;
 }
 
 main.content section.news article.news-card img.news-image {
