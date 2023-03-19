@@ -389,6 +389,8 @@ footer {
     padding: 50px 0;
     background-image: url(../assets/images/mobile-footer-background.png);
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
 }
 
@@ -427,6 +429,7 @@ footer div.footer-content article.about-company p.about-text {
     font-family: "Quicksand";
     font-size: 16px;
     line-height: 20px;
+    text-align: justify;
 }
 
 footer div.footer-content article.about-company div.social-medias {
