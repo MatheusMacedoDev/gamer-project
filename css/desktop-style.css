@@ -235,8 +235,8 @@
         position: relative;
         padding: 80px 0;
         background-image: url(../assets/images/desktop-footer-background.png);
-        background-position-x: -1px;
-        background-size: calc(100% + 1px) 100%;
+        background-position-x: -3px;
+        background-size: calc(100% + 6px) 100%;
     }
 
     footer div.footer-content {
