@@ -448,15 +448,17 @@ footer div.footer-content article.about-company div.social-medias a.button-link 
 
 /* Useful links article */
 
-footer div.footer-content article.useful-links {
-
+footer div.footer-content article.useful-links ul.links-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    list-style: none;
 }
 
-footer div.footer-content article.useful-links ul.links-container {
-    display: flex;
-    flex-flow: row wrap;
-    column-gap: 50px;
-    list-style-position: inside;
+footer div.footer-content article.useful-links ul.links-container li::before {
+    content: "\2015";
+    margin-right: 10px;
+    color: #F9AA01;
 }
 
 footer div.footer-content article.useful-links ul.links-container li a {
