@@ -454,7 +454,7 @@ footer div.footer-content article.about-company div.social-medias a.button-link 
 footer div.footer-content article.useful-links ul.links-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 10px;
     list-style: none;
 }
 
@@ -516,6 +516,7 @@ footer div.footer-content article.newsletter form.newsletter-form button.send-bu
     font-family: "TitilliumWeb-Bold";
     font-size: 24px;
     background-color: #F9AA01;
+    border: none;
     border-radius: 8px;
 }
 
@@ -538,6 +539,7 @@ footer div.footer-end button.return-top-button {
     justify-content: center;
     align-items: center;
     background-color: #F9AA01;
+    border: none;
     border-radius: 8px;
 }
 
