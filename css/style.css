@@ -235,6 +235,7 @@ main.content section.envitation {
     height: 1535px;
     padding-top: 90px;
     background-color: #F9AA01;
+    overflow-x: hidden;
 }
 
 main.content section.envitation .flex {
@@ -249,6 +250,7 @@ main.content section.envitation h2 {
     letter-spacing: 2px;
     color: #1B1426;
     text-transform: uppercase;
+    text-align: center;
 }
 
 main.content section.envitation hr {
