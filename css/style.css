@@ -28,6 +28,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -549,6 +553,15 @@ footer div.footer-end button.return-top-button {
     background-color: #F9AA01;
     border: none;
     border-radius: 8px;
+}
+
+footer div.footer-end button.return-top-button:hover {
+    box-shadow: 0 0 8px #ffffffd4;
+    cursor: pointer;
+}
+
+footer div.footer-end button.return-top-button:active {
+    background-color: #bc8100;
 }
 
 footer div.footer-end p.copyright {

@@ -281,7 +281,7 @@
                 </article>
             </div>
             <div class="footer-end">
-                <button class="return-top-button">
+                <button onclick="clickReturnTop()" class="return-top-button">
                     <img src="./assets/icons/arrow-icon.png" alt="Uma seta que aponta para cima e indica um botão de retorno para o topo da página">
                 </button>
                 <p class="copyright">©Copyright2022-GamerJogosDigitais</p>
@@ -296,6 +296,11 @@
         function clickUserMenuButton() {
             const userMenu = document.getElementById('user-menu')
             userMenu.classList.toggle('show-right-menu')
+        }
+
+        function clickReturnTop() {
+            document.body.scrollTop = 0 // For Safari
+            document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
         }
     </script>
 </body>
