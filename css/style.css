@@ -505,6 +505,7 @@ footer div.footer-content article.newsletter form.newsletter-form input.email-in
     border-radius: 8px;
     padding: 18px;
     margin-bottom: 18px;
+    color: #fff;
 }
 
 footer div.footer-content article.newsletter form.newsletter-form input.email-input::placeholder {
