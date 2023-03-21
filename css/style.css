@@ -117,6 +117,10 @@ a {
     color: #fff;
 }
 
+.yellow-line {
+    border: 3px solid #F9AA01;
+}
+
 /* Mobile fist */
 
 /* Header */
@@ -464,7 +468,6 @@ footer div.footer-content hr.line {
     width: 102px;
     margin-top: 10px;
     margin-bottom: 40px;
-    border: 3px solid #F9AA01;
 }
 
 /* About company article */
@@ -547,10 +550,6 @@ footer div.footer-content article.contacts div.contact-container p.contact-text 
 
 footer div.footer-content article.newsletter form.newsletter-form input.email-input {
     margin-bottom: 18px;
-}
-
-footer div.footer-content article.newsletter form.newsletter-form button.send-button {
-    
 }
 
 /* Footer end */
