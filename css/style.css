@@ -111,6 +111,12 @@ a {
     outline: none;
 }
 
+.form-title {
+    font-family: "TitilliumWeb-Black";
+    font-size: 28px;
+    color: #fff;
+}
+
 /* Mobile fist */
 
 /* Header */
