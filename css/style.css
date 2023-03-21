@@ -117,6 +117,12 @@ a {
     color: #fff;
 }
 
+.background-glass {
+    background: linear-gradient(134.89deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 100%);
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
 .yellow-line {
     border: 3px solid #F9AA01;
 }
