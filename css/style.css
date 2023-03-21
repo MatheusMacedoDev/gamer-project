@@ -86,6 +86,25 @@ a {
     background-color: #bc8100;
 }
 
+.transparent-input {
+    width: 100%;
+    background: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 18px;
+    color: #fff;
+}
+
+.transparent-input::placeholder {
+    font-family: "TitilliumWeb-Regular";
+    font-size: 16px;
+    color: #fff;
+}
+
+.transparent-input:focus {
+    outline: none;
+}
+
 /* Mobile fist */
 
 /* Header */
@@ -515,23 +534,7 @@ footer div.footer-content article.contacts div.contact-container p.contact-text 
 /* Newsletter article */
 
 footer div.footer-content article.newsletter form.newsletter-form input.email-input {
-    width: 100%;
-    background: linear-gradient(to right, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
-    border: 1px solid #fff;
-    border-radius: 8px;
-    padding: 18px;
     margin-bottom: 18px;
-    color: #fff;
-}
-
-footer div.footer-content article.newsletter form.newsletter-form input.email-input::placeholder {
-    font-family: "TitilliumWeb-Regular";
-    font-size: 16px;
-    color: #fff;
-}
-
-footer div.footer-content article.newsletter form.newsletter-form input.email-input:focus {
-    outline: none;
 }
 
 footer div.footer-content article.newsletter form.newsletter-form button.send-button {
