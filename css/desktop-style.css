@@ -1,11 +1,6 @@
 /* Desktop */
 
 @media screen and (min-width: 1024px) {
-    /* Utilities */
-    .layout-grid {
-        max-width: 1400px;
-    }
-
     /* Header */
 
     header {
