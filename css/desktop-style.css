@@ -1,17 +1,5 @@
 /* Desktop */
 
-/* Font imports */
-
-@font-face {
-    font-family: TitilliumWeb-Black;
-    src: url(../assets/fonts/titillium-web/TitilliumWeb-Black.ttf);
-}
-
-@font-face {
-    font-family: Inter;
-    src: url(../assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf);
-}
-
 @media screen and (min-width: 1024px) {
     /* Utilities */
     .layout-grid {

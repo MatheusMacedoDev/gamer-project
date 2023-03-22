@@ -1,0 +1,52 @@
+/* Font imports */
+
+@font-face {
+    font-family: TitilliumWeb-Black;
+    src: url(../assets/fonts/titillium-web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Bold;
+    src: url(../assets/fonts/titillium-web/TitilliumWeb-Bold.ttf);
+}
+
+@font-face {
+    font-family: TitilliumWeb-Regular;
+    src: url(../assets/fonts/titillium-web/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url(../assets/fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/* General changes */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+    width: 1em;
+    background-color: #1B1426;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 8px;
+}
