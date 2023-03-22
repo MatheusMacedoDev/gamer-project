@@ -1,0 +1,97 @@
+/* Mobile Header */
+
+header {
+    width: 100%;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 30;
+}
+
+header .header-top {
+    display: none;
+}
+
+header .header-bottom {
+    height: 60px;
+    background-color: #1B1426;
+}
+
+header .header-bottom img.logotype {
+    height: 36px;
+}
+
+header .header-bottom nav.navigator-menu {
+    position: fixed;
+    top: 60px;
+    left: -80vw;
+    width: 80vw;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+
+    transition: left 0.3s;
+}
+
+header .header-bottom nav.navigator-menu > a, header .header-bottom nav.navigator-menu .phone-number {
+    padding: 30px 0;
+    color: white;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 2px solid #F9AA01;
+}
+
+header .header-bottom nav.navigator-menu > a:hover {
+    background-color: rgba(249, 170, 1, 0.4);
+}
+
+/* header .header-bottom nav.navigator-menu > a:last-of-type {
+    border: none;
+} */
+
+header .header-bottom nav.navigator-menu .social-medias {
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+
+header .header-bottom nav.navigator-menu .phone-number, header .header-bottom nav.navigator-menu .email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
+}
+
+header .header-bottom .lateral-user-menu {
+    width: 16vw;
+    position: fixed;
+    top: 60px;
+    right: -16vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    background: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
+
+    transition: right 0.3s;
+}
