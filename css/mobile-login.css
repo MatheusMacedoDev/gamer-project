@@ -1,12 +1,10 @@
-/* Main */
-/* Main */
+/* Mobile Login */
 
-main.content {
-    margin-top: 60px;
-}
+/* Main */
 
 main.content {
     height: 687px;
+    margin-top: 60px;
     padding: 82px 20px;
     background-image: url(../assets/images/desktop-login-background.png);
     background-position: bottom;

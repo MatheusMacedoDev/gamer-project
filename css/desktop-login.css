@@ -1,0 +1,14 @@
+/* Desktop Login */
+
+/* Main */
+
+main.content {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main.content form.login-form {
+    width: 800px;
+}
