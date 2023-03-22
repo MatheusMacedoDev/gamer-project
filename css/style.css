@@ -99,6 +99,8 @@ a {
     border-radius: 8px;
     padding: 18px;
     color: #fff;
+    font-family: "TitilliumWeb-Regular";
+    font-size: 16px;
 }
 
 .transparent-input::placeholder {

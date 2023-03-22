@@ -25,7 +25,35 @@ main.content form.login-form div.inputs {
     gap: 30px;
 }
 
-main.content form.login-form div.inputs input {
-    background-color: transparent;
+main.content form.login-form div.inputs div.text-input,
+main.content form.login-form div.inputs div.password-input {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+main.content form.login-form div.inputs img {
+    height: 23px;
+    margin: 0 12px;
+}
+
+main.content form.login-form div.inputs input { 
+    width: 80%;
     height: 100%;
+    padding: 12px 0;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-family: "TitilliumWeb-Regular";
+    font-size: 16px;
+}
+
+main.content form.login-form div.inputs input::placeholder {
+    font-family: "TitilliumWeb-Regular";
+    font-size: 16px;
+    color: #fff;
+}
+
+main.content form.login-form div.inputs input:focus {
+    outline: none;
 }
