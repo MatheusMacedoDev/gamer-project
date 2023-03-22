@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Jogadores</title>
 
     <!-- Mobile -->
     <link rel="stylesheet" href="../css/imports-and-generics.css">
     <link rel="stylesheet" href="../css/utililities.css">
     <link rel="stylesheet" href="../css/mobile-header.css">
     <link rel="stylesheet" href="../css/mobile-footer.css">
-    <link rel="stylesheet" href="../css/mobile-login.css">
 
     <!-- Desktop -->
     <link rel="stylesheet" href="../css/desktop-header.css" media="(min-width: 1024px)">
     <link rel="stylesheet" href="../css/desktop-footer.css" media="(min-width: 1024px)">
-    <link rel="stylesheet" href="../css/desktop-login.css" media="(min-width: 1024px)">
+
 </head>
 <body>
     <header>
@@ -111,21 +110,49 @@
     <main class="content">
         <form action="" class="login-form background-glass">
             <div class="title-wrapper">
-                <h1 class="form-title">Login</h1>
+                <h1 class="form-title">Cadastro de jogadores</h1>
                 <hr class="yellow-line">
             </div>
             <div class="inputs">
-                <div class="text-input transparent-input">
-                    <img src="../assets/icons/user-white-icon.png" alt="">
-                    <input type="text" name="email" id="email-login" placeholder="Digite seu e-mail:">
-                </div>
-                <div class="password-input transparent-input">
-                    <img src="../assets/icons/key-white-icon.png" alt="">
-                    <input type="password" name="password" id="password-login" placeholder="Digite sua senha:">
-                </div>
+                <input type="text" name="email" id="email-login" placeholder="Digite o Id do Jogador:">
+                <input type="text" name="email" id="email-login" placeholder="Selecione uma Equipe:">
+                <input type="text" name="email" id="email-login" placeholder="Digite o nome do Jogador:">
+                <input type="text" name="email" id="email-login" placeholder="Digite o Email do Jogador:">
+                <input type="password" name="password" id="password-login" placeholder="Digite a senha:">
             </div>
-            <button class="send-button yellow-button" type="submit">Logar</button>
+            <button class="send-button yellow-button" type="submit">Cadastrar</button>
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>João</td>
+                    <td>joão@mail.com</td>
+                    <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>João</td>
+                    <td>joão@mail.com</td>
+                    <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>João</td>
+                    <td>joão@mail.com</td>
+                    <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>
