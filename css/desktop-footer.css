@@ -1,0 +1,54 @@
+ /* Desktop Footer */
+
+ @media screen and (min-width: 1024px) {
+     footer {
+        position: relative;
+        padding: 80px 0;
+        background-image: url(../assets/images/desktop-footer-background.png);
+        background-position-x: -3px;
+        background-size: calc(100% + 6px) 100%;
+    }
+    
+    footer div.footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    
+    /* About company article */
+    
+    footer div.footer-content article.about-company {
+        width: 214px;
+    }
+    
+    footer div.footer-content article.about-company img.logotype {
+        width: 196px;
+    }
+    
+    /* Useful links article */
+    
+    footer div.footer-content article.useful-links ul.links-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 14px;
+    }
+    
+    /* Newsletter article */
+    
+    footer div.footer-content article.newsletter {
+        width: 284px;
+    }
+    
+    /* Footer end */
+    
+    footer div.footer-end button.return-top-button {
+        position: absolute;
+        right: 50px;
+        bottom: 50px;
+        margin: 0;
+        align-self: auto;
+    }
+    
+    footer div.footer-end p.copyright {
+        margin-top: 70px;
+    }
+ }
