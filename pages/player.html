@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/utililities.css">
     <link rel="stylesheet" href="../css/mobile-header.css">
     <link rel="stylesheet" href="../css/mobile-footer.css">
+    <link rel="stylesheet" href="../css/mobile-player.css">
 
     <!-- Desktop -->
     <link rel="stylesheet" href="../css/desktop-header.css" media="(min-width: 1024px)">
@@ -108,17 +109,22 @@
     </header>
     
     <main class="content">
-        <form action="" class="login-form background-glass">
+        <form action="" class="player-form background-glass">
             <div class="title-wrapper">
                 <h1 class="form-title">Cadastro de jogadores</h1>
                 <hr class="yellow-line">
             </div>
             <div class="inputs">
-                <input type="text" name="email" id="email-login" placeholder="Digite o Id do Jogador:">
-                <input type="text" name="email" id="email-login" placeholder="Selecione uma Equipe:">
-                <input type="text" name="email" id="email-login" placeholder="Digite o nome do Jogador:">
-                <input type="text" name="email" id="email-login" placeholder="Digite o Email do Jogador:">
-                <input type="password" name="password" id="password-login" placeholder="Digite a senha:">
+                <input class="transparent-input" type="text" name="player-id" id="player-id" placeholder="Digite o Id do Jogador:">
+                <select class="transparent-input team-selector" name="player-team" id="player-team" placeholder="Selecione uma Equipe:">
+                    <option value="team-1">Team 1</option>
+                    <option value="team-2">Team 2</option>
+                    <option value="team-3">Team 3</option>
+                    <option value="team-4">Team 4</option>
+                </select>
+                <input class="transparent-input" type="text" name="player-name" id="player-name" placeholder="Digite o nome do Jogador:">
+                <input class="transparent-input" type="text" name="player-email" id="player-email" placeholder="Digite o Email do Jogador:">
+                <input class="transparent-input" type="password" name="player-password" id="player-password" placeholder="Digite a senha:">
             </div>
             <button class="send-button yellow-button" type="submit">Cadastrar</button>
         </form>
