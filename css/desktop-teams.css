@@ -1,0 +1,22 @@
+/* Desktop Player */
+
+@media screen and (min-width: 1024px) {
+    /* Main */
+    main.content {
+        margin: 0;
+        background-image: url(../assets/images/desktop-player-background.png);
+        background-size: cover;
+    }
+
+    main.content div.page-flex {
+        align-items: center;
+    }
+
+    main.content form.player-form {
+        width: 800px;
+    }
+
+    main.content table.players-table {
+        width: 800px;
+    }
+}

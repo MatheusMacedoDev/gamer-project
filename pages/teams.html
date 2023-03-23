@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de equipes</title>
+
+    <!-- Mobile -->
+    <link rel="stylesheet" href="../css/imports-and-generics.css">
+    <link rel="stylesheet" href="../css/utililities.css">
+    <link rel="stylesheet" href="../css/mobile-header.css">
+    <link rel="stylesheet" href="../css/mobile-footer.css">
+    <link rel="stylesheet" href="../css/mobile-teams.css">
+
+    <!-- Desktop -->
+    <link rel="stylesheet" href="../css/desktop-header.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="../css/desktop-footer.css" media="(min-width: 1024px)">
+    <link rel="stylesheet" href="../css/desktop-teams.css" media="(min-width: 1024px)">
+
+</head>
+<body>
+    <header>
+        <!-- Displays only on desktops -->
+        <div class="header-top">
+            <div class="layout-grid flex">
+                <div class="contact-info">
+                    <div class="phone-number">
+                        <img src="../assets/icons/phone-icon.png" alt="Ícone de telefone">
+                        <span>(11) 0900-1010</span>
+                    </div>
+                    <div class="email">
+                        <img src="../assets/icons/mail-icon.png" alt="Ícone de e-mail">
+                        <span>contato@gamer.com.br</span>
+                    </div>
+                </div>
+    
+                <div class="social-medias">
+                    <a href="">
+                        <img src="../assets/icons/facebook-icon.png" alt="Ícone link do Facebook">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/linkedin-icon.png" alt="Ícone link do LinkedIn">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/instagram-icon.png" alt="Ícone link do Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="layout-grid flex-between-center">
+                <!-- Mobile lateral menu  -->
+       
+                <img onclick="clickMenuButton()" class="menu-button" src="../assets/icons/menu-icon.png" alt="Botão que abre e fecha o menu lateral">
+    
+                <!-- Logotype -->
+                <a href="">
+                    <img class="logotype" src="../assets/icons/gamer-logotype.png" alt="Logomarca do projeto gamer, que possui uma imagem de um joystick com o texto gamer em seu fundo">
+                </a>
+    
+                <!-- Mobile lateral user menu -->
+                <img onclick="clickUserMenuButton()" class="user-menu-button" src="../assets/icons/options-icon.png" alt="Botão que abre e fecha o menu de usuário">
+    
+                <nav class="navigator-menu" id="menu">
+                    <a href="">Início</a>
+                    <a href="">Jogadores</a>
+                    <a href="">Equipes</a>
+                    <a href="">Notícias</a>
+    
+                    <!-- Visible only on smartphones -->
+    
+                    <div class="phone-number">
+                        <img src="../assets/icons/phone-icon.png" alt="Ícone de telefone">
+                        <span>(11) 0900-1010</span>
+                    </div>
+                    <div class="email">
+                        <img src="../assets/icons/mail-icon.png" alt="Ícone de e-mail">
+                        <span>contato@gamer.com.br</span>
+                    </div>
+
+                    <div class="social-medias">
+                        <a href="">
+                            <img src="../assets/icons/facebook-icon.png" alt="Ícone link do Facebook">
+                        </a>
+                        <a href="">
+                            <img src="../assets/icons/linkedin-icon.png" alt="Ícone link do LinkedIn">
+                        </a>
+                        <a href="">
+                            <img src="../assets/icons/instagram-icon.png" alt="Ícone link do Instagram">
+                        </a>
+                    </div>
+
+                </nav>
+
+                <div class="lateral-user-menu" id="user-menu">
+                    <a href="">
+                        <img src="../assets/icons/user-icon.png" alt="Botão que leva ao perfil">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/shop-icon.png" alt="Botão que leva para as compras">
+                    </a>
+                    <a href="">
+                        <img src="../assets/icons/search-icon.png" alt="Botão de pesquisa">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="content">
+        <div class="layout-grid page-flex">
+            <form action="" class="teams-form background-glass">
+                <div class="title-wrapper">
+                    <h1 class="form-title">Cadastro de equipes</h1>
+                    <hr class="yellow-line">
+                </div>
+                <div class="inputs">
+                    <input 
+                        class="transparent-input" 
+                        type="text" 
+                        name="team-id" 
+                        id="team-id" 
+                        placeholder="Digite o Id da sua equipe:">
+                    <input class="transparent-input"
+                        type="text" 
+                        name="team-name" 
+                        id="team-name" 
+                        placeholder="Digite o nome da equipe:">
+                    <label class="file-label" for="team-image">Imagem da Equipe</label>
+                    <input class="file-input" 
+                        type="file"
+                        name="team-image" 
+                        id="team-image" 
+                        accept="image/png, image/jpeg">
+                </div>
+                <button class="send-button yellow-button" type="submit">Cadastrar</button>
+            </form>
+    
+            <table class="teams-table">
+                <thead class="table-head">
+                    <tr class="head-row">
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+                    <tr class="body-row background-glass">
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joão@mail.com</td>
+                        <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                    </tr>
+                    <tr class="body-row background-glass">
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joão@mail.com</td>
+                        <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                    </tr>
+                    <tr class="body-row background-glass">
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joão@mail.com</td>
+                        <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="layout-grid">
+            <div class="footer-content">
+                <article class="about-company">
+                    <a href="">
+                        <img src="../assets/icons/gamer-logotype.png" alt="Logomarca do projeto gamer, que possui uma imagem de um joystick com o texto gamer em seu fundo" class="logotype">
+                    </a>
+                    <p class="about-text">Nosso sucesso na criação de soluções de negócios se deve em grande parte à nossa equipe talentosa ealtamente comprometida.</p>
+                    <div class="social-medias">
+                        <a href="" class="button-link yellow-button">
+                            <img src="../assets/icons/facebook-black-icon.png" alt="Ícone link do Facebook" class="button-icon">
+                        </a>
+                        <a href="" class="button-link yellow-button">
+                            <img src="../assets/icons/linkedin-black-icon.png" alt="Ícone link do Linkedin" class="button-icon">
+                        </a>
+                        <a href="" class="button-link yellow-button">
+                            <img src="../assets/icons/instagram-black-icon.png" alt="Ícone link do Instagram" class="button-icon">
+                        </a>
+                    </div>
+                </article>
+                <article class="useful-links">
+                    <h3 class="article-title">Links Úteis</h3>
+                    <hr class="line yellow-line">
+                    <ul class="links-container">
+                        <li>
+                            <a href="">Início</a>
+                        </li>
+                        <li>
+                            <a href="">Jogadores</a>
+                        </li>
+                        <li>
+                            <a href="">Equipes</a>
+                        </li>
+                        <li>
+                            <a href="">Notícias</a>
+                        </li>
+                        <li>
+                            <a href="">Login</a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="contacts">
+                    <h3 class="article-title">Contatos</h3>
+                    <hr class="line yellow-line">
+                    <div class="contact-wrapper">
+                        <div class="contact-container">
+                            <h4 class="contact-title">Localização:</h4>
+                            <p class="contact-text">Rua Niterói, 180 - São Caetano do Sul- SP</p>
+                        </div>
+                        <div class="contact-container">
+                            <h4 class="contact-title">Junte-se a nós:</h4>
+                            <p class="contact-text">contato@gamer.com.br </p>
+                        </div>
+                        <div class="contact-container">
+                            <h4 class="contact-title">Telefone:</h4>
+                            <p class="contact-text">(11) 0900-1010</p>
+                        </div>
+                    </div>
+                </article>
+                <article class="newsletter">
+                    <h3 class="article-title">Newsletter</h3>
+                    <hr class="line yellow-line">
+                    <form action="" class="newsletter-form">
+                        <input class="email-input transparent-input" type="text" placeholder="Digite o seu e-mail...">
+                        <button class="send-button yellow-button" type="submit">Enviar</button>
+                    </form>
+                </article>
+            </div>
+            <div class="footer-end">
+                <button onclick="clickReturnTop()" class="return-top-button yellow-button">
+                    <img src="../assets/icons/arrow-icon.png" alt="Uma seta que aponta para cima e indica um botão de retorno para o topo da página">
+                </button>
+                <p class="copyright">©Copyright2022-GamerJogosDigitais</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function clickMenuButton() {
+            const menu = document.getElementById('menu').classList.toggle('show-left-menu')
+        }
+
+        function clickUserMenuButton() {
+            const userMenu = document.getElementById('user-menu')
+            userMenu.classList.toggle('show-right-menu')
+        }
+
+        function clickReturnTop() {
+            document.body.scrollTop = 0 // For Safari
+            document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+</html>
