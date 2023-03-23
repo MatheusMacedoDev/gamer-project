@@ -1,12 +1,13 @@
 /* Mobile Player */
 
 /* Main */
+
 main.content {
     position: relative;
     z-index: 0;
     height: 1403px;
     margin-top: 60px;
-    padding: 82px 20px;
+    padding: 82px 0 200px 0;
     background-image: url(../assets/images/mobile-player-background.png);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -23,6 +24,14 @@ main.content::after {
     height: 100%;
     backdrop-filter: blur(8px);
 }
+
+main.content div.page-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Player register form */
 
 main.content form.player-form {
     position: relative;
@@ -54,4 +63,55 @@ main.content form.player-form div.inputs {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* Players table */
+
+main.content table.players-table {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+main.content table.players-table thead.table-head,
+main.content table.players-table tbody.table-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main.content table.players-table thead.table-head > tr.head-row {
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #F9AA01;
+    color: #F9AA01;
+    font-family: "TitilliumWeb-Black";
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+main.content table.players-table tbody.table-body > tr.body-row {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "TitilliumWeb-Bold";
+    font-size: 18px;
+}
+
+main.content table.players-table tbody.table-body td {
+    width: 100%;
+    height: 34px;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid #F9AA01;
+}
+
+main.content table.players-table tbody.table-body td:last-of-type {
+    border-right: none;
 }

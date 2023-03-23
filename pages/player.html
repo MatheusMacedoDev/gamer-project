@@ -109,56 +109,58 @@
     </header>
     
     <main class="content">
-        <form action="" class="player-form background-glass">
-            <div class="title-wrapper">
-                <h1 class="form-title">Cadastro de jogadores</h1>
-                <hr class="yellow-line">
-            </div>
-            <div class="inputs">
-                <input class="transparent-input" type="text" name="player-id" id="player-id" placeholder="Digite o Id do Jogador:">
-                <select class="transparent-input team-selector" name="player-team" id="player-team" placeholder="Selecione uma Equipe:">
-                    <option value="team-1">Team 1</option>
-                    <option value="team-2">Team 2</option>
-                    <option value="team-3">Team 3</option>
-                    <option value="team-4">Team 4</option>
-                </select>
-                <input class="transparent-input" type="text" name="player-name" id="player-name" placeholder="Digite o nome do Jogador:">
-                <input class="transparent-input" type="text" name="player-email" id="player-email" placeholder="Digite o Email do Jogador:">
-                <input class="transparent-input" type="password" name="player-password" id="player-password" placeholder="Digite a senha:">
-            </div>
-            <button class="send-button yellow-button" type="submit">Cadastrar</button>
-        </form>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Id</th>
-                    <th>Nome</th>
-                    <th>E-mail</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>João</td>
-                    <td>joão@mail.com</td>
-                    <td><img src="../assets/icons/trash-icon.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>João</td>
-                    <td>joão@mail.com</td>
-                    <td><img src="../assets/icons/trash-icon.png" alt=""></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>João</td>
-                    <td>joão@mail.com</td>
-                    <td><img src="../assets/icons/trash-icon.png" alt=""></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="layout-grid page-flex">
+            <form action="" class="player-form background-glass">
+                <div class="title-wrapper">
+                    <h1 class="form-title">Cadastro de jogadores</h1>
+                    <hr class="yellow-line">
+                </div>
+                <div class="inputs">
+                    <input class="transparent-input" type="text" name="player-id" id="player-id" placeholder="Digite o Id do Jogador:">
+                    <select class="transparent-input team-selector" name="player-team" id="player-team" placeholder="Selecione uma Equipe:">
+                        <option value="team-1">Team 1</option>
+                        <option value="team-2">Team 2</option>
+                        <option value="team-3">Team 3</option>
+                        <option value="team-4">Team 4</option>
+                    </select>
+                    <input class="transparent-input" type="text" name="player-name" id="player-name" placeholder="Digite o nome do Jogador:">
+                    <input class="transparent-input" type="text" name="player-email" id="player-email" placeholder="Digite o Email do Jogador:">
+                    <input class="transparent-input" type="password" name="player-password" id="player-password" placeholder="Digite a senha:">
+                </div>
+                <button class="send-button yellow-button" type="submit">Cadastrar</button>
+            </form>
+    
+            <table class="players-table">
+                <thead class="table-head">
+                    <tr class="head-row">
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="table-body">
+                    <tr class="body-row background-glass">
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joão@mail.com</td>
+                        <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                    </tr>
+                    <tr class="body-row background-glass">
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joão@mail.com</td>
+                        <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                    </tr>
+                    <tr class="body-row background-glass">
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joão@mail.com</td>
+                        <td><img src="../assets/icons/trash-icon.png" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
     <footer>

@@ -76,11 +76,13 @@
     background: linear-gradient(134.89deg, rgba(27, 20, 38, 0.6) 0%, rgba(60, 3, 65, 0.38) 100%);
     border: 1px solid #fff;
     border-radius: 8px;
+    color: #fff;
 }
 
 .yellow-line {
     border: 2px solid #F9AA01;
 }
+
 @media screen and (min-width: 1024px) {
     /* Utilities */
     .layout-grid {
