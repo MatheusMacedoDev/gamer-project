@@ -65,21 +65,37 @@ main.content form.teams-form div.inputs {
     gap: 20px;
 }
 
-main.content form.teams-form input.file-input {
-  
+/* Input file */
+
+main.content form.teams-form div.file-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-main.content form.teams-form label.file-label {
-    width: 124px;
+main.content form.teams-form div.file-input-container label.file-label {
+    width: 45%;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "TitilliumWeb-Bold";
     font-size: 14px;
+    text-align: center;
+    border: none;
     border-radius: 8px;
-    color: #1B1426;
     background-color: #D9D9D9;
+    color: #1B1426;
+    cursor: pointer;
+}
+
+main.content form.teams-form div.file-input-container input.file-input {
+    display: none;
+}
+
+main.content form.teams-form div.file-input-container span.input-info {
+    font-family: "TitilliumWeb-Regular";
+    font-size: 10px;
 }
 
 /* Teams table */

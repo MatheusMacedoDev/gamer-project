@@ -128,12 +128,17 @@
                         name="team-name" 
                         id="team-name" 
                         placeholder="Digite o nome da equipe:">
-                    <label class="file-label" for="team-image">Imagem da Equipe</label>
-                    <input class="file-input" 
-                        type="file"
-                        name="team-image" 
-                        id="team-image" 
-                        accept="image/png, image/jpeg">
+                    <div class="file-input-container">
+                        <label class="file-label" for="team-image">
+                            Imagem da Equipe
+                            <input class="file-input" 
+                                type="file"
+                                name="team-image" 
+                                id="team-image" 
+                                accept="image/png, image/jpeg">
+                        </label>
+                        <span class="input-info">Nenhuma imagem selecionada...</span>
+                    </div>
                 </div>
                 <button class="send-button yellow-button" type="submit">Cadastrar</button>
             </form>
