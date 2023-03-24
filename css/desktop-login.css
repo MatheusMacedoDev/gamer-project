@@ -1,14 +1,20 @@
 /* Desktop Login */
 
-/* Main */
+@media screen and (min-width: 1024px) {
+    /* Main */
 
-main.content {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    main.content {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-main.content form.login-form {
-    width: 800px;
+    main.content form.login-form {
+        width: 800px;
+    }
+
+    main.content form.login-form button.send-button {
+        width: 242px;
+    }
 }

@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 1024px) {
     /* Main */
+    
     main.content {
         margin: 0;
         background-image: url(../assets/images/desktop-player-background.png);
@@ -16,8 +17,13 @@
         width: 800px;
     }
 
+    main.content form.player-form button.send-button {
+        width: 242px;
+    }
+
     main.content table.players-table {
         width: 800px;
     }
+
 }
 
