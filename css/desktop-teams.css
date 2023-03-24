@@ -3,9 +3,9 @@
 @media screen and (min-width: 1024px) {
     /* Main */
     main.content {
+        height: 1372px;
         margin: 0;
-        background-image: url(../assets/images/desktop-player-background.png);
-        background-size: cover;
+        background-image: url(../assets/images/desktop-teams-background.png);
     }
 
     main.content div.page-flex {
@@ -18,5 +18,27 @@
 
     main.content table.teams-table {
         width: 800px;
+    }
+
+    main.content form.teams-form div.inputs {
+        gap: 30px;
+    }
+
+    /* Input file */
+
+    main.content form.teams-form div.file-input-container {
+        gap: 20px;
+    }
+
+    main.content form.teams-form div.file-input-container label.file-label {
+        font-size: 22px;
+    }
+
+    main.content form.teams-form div.file-input-container span.input-info {
+        font-size: 16px;
+    }
+
+    main.content form.teams-form button.send-button {
+        width: 242px;
     }
 }
