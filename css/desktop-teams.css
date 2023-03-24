@@ -12,11 +12,11 @@
         align-items: center;
     }
 
-    main.content form.player-form {
+    main.content form.teams-form {
         width: 800px;
     }
 
-    main.content table.players-table {
+    main.content table.teams-table {
         width: 800px;
     }
 }
